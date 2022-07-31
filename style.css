@@ -31,7 +31,10 @@ button {
     width: 240px;
     height: 240px;
     border-radius: 100%;
-    text-align: center;
+    /* text-align: center; */
+    /* margin: auto; */
+    box-sizing: content-box;
+    
 
 }
 
@@ -40,5 +43,7 @@ span {
     font-size: 200px;
     color: #FFEEDF;
     font-family: "Montserrat";
-    font-weight: 500;
+    font-weight: 200;
+    margin-top: -20px;
+    appearance: auto;
 }

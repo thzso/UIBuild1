@@ -3,27 +3,16 @@
 
 body {
     background-color: #FFEEDF;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     height: 100vh;
+    
+    /* vh = 1% of wievport  height 
+    vw = 1% of viewport width */
 }
 
-
-
-div {
-
-    /* margin: 0 auto; */
-    /* top: 14em; */
-    width: 240px;
-    height: 240px;
-    /* position: absolute; */
-
-}
 
 button {
     border: none;
@@ -31,9 +20,11 @@ button {
     width: 240px;
     height: 240px;
     border-radius: 100%;
-    /* text-align: center; */
-    /* margin: auto; */
-    box-sizing: content-box;
+    /* box-sizing: content-box; fogalmam sincs ez hogy jött ez az appearance+margin-top-20px-el működött*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 
 }
@@ -45,5 +36,5 @@ span {
     font-family: "Montserrat";
     font-weight: 200;
     margin-top: -20px;
-    appearance: auto;
+    /* appearance: auto; */
 }
